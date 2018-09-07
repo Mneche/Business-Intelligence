@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETLNorthWindOrders", "ETLNorthWindOrders\ETLNorthWindOrders.dtproj", "{EC7F7EAB-0B1B-4643-8E18-0952A18DA597}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjetMultidimensionnel_DWNorthwind", "ProjetMultidimensionnel1\ProjetMultidimensionnel_DWNorthwind.dwproj", "{B5CDF359-C6FA-4C48-B403-619689DDC244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionDocuments", "SolutionDocuments", "{D7C869D9-DD94-4132-AD39-DA5AB2E83EC0}"
+	ProjectSection(SolutionItems) = preProject
+		\\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\DiagramDWNorthwindOrders.docx = \\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\DiagramDWNorthwindOrders.docx
+		\\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\SSAS_Report.xlsx = \\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\SSAS_Report.xlsx
+		\\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\StarterBISolutionWorksheets.xlsx = \\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\StarterBISolutionWorksheets.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DWNorthwind_Scripts", "DWNorthwind_Scripts", "{9A001F4D-C09A-4C41-90C6-A609722A5B8E}"
+	ProjectSection(SolutionItems) = preProject
+		\\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\Script_Creation_DWNorthwindOrders.sql = \\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\Script_Creation_DWNorthwindOrders.sql
+		\\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\Script_ETL_DWNorthwindOrders.sql = \\Vboxsvr\e_drive\TafFINAL\TP_BD5_Partie2v2\Script_ETL_DWNorthwindOrders.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7F7EAB-0B1B-4643-8E18-0952A18DA597}.Development|Default.ActiveCfg = Development
+		{EC7F7EAB-0B1B-4643-8E18-0952A18DA597}.Development|Default.Build.0 = Development
+		{B5CDF359-C6FA-4C48-B403-619689DDC244}.Development|Default.ActiveCfg = Development
+		{B5CDF359-C6FA-4C48-B403-619689DDC244}.Development|Default.Build.0 = Development
+		{B5CDF359-C6FA-4C48-B403-619689DDC244}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
